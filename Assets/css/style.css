@@ -1,0 +1,49 @@
+/* Variables */
+:root{
+  --weight-regular: 400;
+  --weight-title: 500;
+  --weight-bold: 700;
+
+  --primary-color: black;
+  --second-color:  #c8c8c8;
+  --ternary-color: #5a5444;
+  --quaternary-color: white;
+  --quinta-cor: rgba(0, 17, 255, 0.685);
+
+  --bgc-principal: #f0eeeb;
+  --bgc-secundary: white;
+  --bgc-ternary: black;
+}
+
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cabin', sans-serif;
+}
+
+a{
+  color: var(--primary-color);
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+a:hover{
+  cursor: pointer;
+  color: var(--quinta-cor);
+}
+
+/* Centralização do layout */
+
+
+/* Header */
+
+
+/* navigation */
+
+
+/* Main */
+
+
+/* Footer */
