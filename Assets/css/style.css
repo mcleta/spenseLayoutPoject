@@ -71,10 +71,13 @@ header{
 .notify{
   width: 100%;
   background-color: var(--black);
-  color: var(--white);
   padding: 0.4rem 0;
   display: flex;
   justify-content: center;
+}
+
+.notify p{
+  color: var(--white);
 }
 
 .notify strong{
@@ -93,6 +96,10 @@ nav{
 
 nav > a{
   font-weight: var(--weight-bold);
+}
+
+nav a{
+  padding: 0 0.5rem;
 }
 
 .in-phone{
@@ -127,6 +134,10 @@ main{
 .main-informations_content div{
   width: 30rem;
   padding: 2rem 2rem 2rem 0;
+}
+
+.main-informations_content div span{
+  font-style: italic;
 }
 
 .main-informations_content ul{
@@ -233,3 +244,56 @@ main{
 }
 
 /* Footer */
+
+footer{
+  width: 100%;
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.footer-content{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-content a{
+  color: var(--grey);
+  padding: 0.5rem 0;
+}
+
+.footer-content > div{
+  width: 30%;
+}
+
+.footer-content > div p{
+  margin: 0.5rem 0;
+}
+
+.footer-content div{
+  min-height: 3rem;
+  max-height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.footer-content section{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-content section div{
+  display: flex;
+  flex: 1;
+}
